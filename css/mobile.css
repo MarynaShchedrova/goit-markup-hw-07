@@ -1,0 +1,32 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container-tap {
+    max-width: 298px;
+  }
+  .hero {
+    background-image: var(--bg-gradient),
+      url('../images/fonts/hero-image-table.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient),
+        url(../images/fonts/hero-image-table@2x.jpg);
+    }
+  }
+  .hero-title {
+    font-size: 36px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 112px;
+  }
+  .customers-link {
+    width: calc((100%-30px) / 2);
+  }
+}
