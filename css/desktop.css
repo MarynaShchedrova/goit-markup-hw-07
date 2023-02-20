@@ -23,10 +23,9 @@
   }
   .hero-title {
     margin-bottom: 48px;
-    /* width: 496px;
-    padding-left: 188px;
-    padding-right: 188px;
-    padding-top: 473px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .services {
     display: block;
@@ -44,11 +43,12 @@
     fill: var(--licht-slate-color);
   }
   .advance-item {
-    flex-basis: calc(100% / 4);
+    width: calc((100% - 100px) / 4);
   }
   .advance-item:not(:nth-child(4n)) {
     margin-right: 24px;
   }
+
   .work {
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,9 @@
   .team-soc {
     gap: 24px;
     margin-top: 8px;
+  }
+  .team-item {
+    width: calc((100% - 100px) / 4);
   }
   .team-list {
     justify-content: space-between;
@@ -73,5 +76,11 @@
   }
   .footer {
     padding: 100px 0;
+  }
+  .container-footer-tap {
+    display: flex;
+  }
+  .footer-subscribe {
+    margin-left: 80px;
   }
 }
