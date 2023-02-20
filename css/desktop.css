@@ -48,7 +48,13 @@
   .advance-item:not(:nth-child(4n)) {
     margin-right: 24px;
   }
-
+  .contacts {
+    display: flex;
+    align-items: center;
+  }
+  .contacts-email {
+    margin-right: 40px;
+  }
   .work {
     display: flex;
     justify-content: space-between;
