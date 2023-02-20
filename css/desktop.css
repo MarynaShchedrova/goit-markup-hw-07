@@ -1,16 +1,15 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
-
+  .container-cust {
+    max-width: 1200px;
+  }
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
   .hero {
-    padding: 188px 0;
-    max-width: 1440px;
-    margin: 0 auto;
     background-image: var(--bg-gradient),
       url('../images/fonts/hero-image-desktop.jpg');
   }
@@ -24,10 +23,10 @@
   }
   .hero-title {
     margin-bottom: 48px;
-    width: 496px;
+    /* width: 496px;
     padding-left: 188px;
     padding-right: 188px;
-    padding-top: 473px;
+    padding-top: 473px; */
   }
   .services {
     display: block;
@@ -65,8 +64,8 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .customers-link {
-    width: calc((100%-150px) / 6);
+  .customers-item {
+    width: calc((100% - 150px) / 6);
   }
   .footer-logo {
     display: block;

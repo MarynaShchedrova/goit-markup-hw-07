@@ -1,9 +1,12 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
-  .container-tap {
-    width: 582px;
+  .container-footer-tap {
+    max-width: 559px;
+  }
+  .container-cust {
+    max-width: 609px;
   }
   .services {
     display: none;
@@ -12,9 +15,29 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .mobile-menu-open {
+    display: none;
+  }
+  .hero {
+    background-image: var(--bg-gradient),
+      url('../images/fonts/hero-image-table.jpg');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--bg-gradient),
+        url(../images/fonts/hero-image-table@2x.jpg);
+    }
+  }
   .menu {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .page-header-tap {
+    display: flex;
   }
   .menu-item:not(:last-child) {
     margin-right: 40px;
@@ -28,12 +51,13 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .address {
-    margin-left: auto;
-  }
-  .contacts {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
   }
+
   .contacts-email {
     margin-right: 40px;
   }
@@ -64,16 +88,59 @@
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 40px;
-    width: 318px;
-    padding-left: 137px;
-    padding-right: 137px;
-    padding-top: 112px;
+  }
+  .advance-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .advance-item {
+    width: calc((100% - 30px) / 2);
+  }
+  .advance-title {
+    text-align: left;
+  }
+  .team-list {
+    gap: 32px;
+  }
+  .team-soc {
+    gap: 16px;
+  }
+  .customers-item {
+    width: calc((100% - 60px) / 3);
   }
   .customers-link {
-    width: calc((100%-60px) / 3);
-    gap: 24px;
+    margin-bottom: 72px;
   }
   .footer-text {
     width: 264px;
+  }
+  .footer-section {
+    display: flex;
+  }
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-logo {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .footer-content {
+    margin-right: 120px;
+  }
+  .footer-social {
+    margin-bottom: 16px;
+  }
+  .footer-tap {
+    display: flex;
+  }
+  .subscribe {
+    text-align: left;
+  }
+  .footer-form {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 16px;
+    margin-left: 24px; */
   }
 }

@@ -7,6 +7,9 @@
   .container-tap {
     max-width: 298px;
   }
+  .container-cust {
+    max-width: 421px;
+  }
   .hero {
     background-image: var(--bg-gradient),
       url('../images/fonts/hero-image-table.jpg');
@@ -22,11 +25,16 @@
   }
   .hero-title {
     font-size: 36px;
-    padding-left: 55px;
-    padding-right: 55px;
     padding-top: 112px;
   }
-  .customers-link {
+  .customers-item {
     width: calc((100%-30px) / 2);
+    gap: 30px;
+  }
+  .team-list {
+    gap: 32px;
+  }
+  .team-soc {
+    gap: 16px;
   }
 }
