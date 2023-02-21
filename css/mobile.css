@@ -38,4 +38,11 @@
     text-align: center;
     justify-content: center;
   }
+  .modal {
+    width: 392px;
+    height: 586px;
+  }
+  .mobile-menu-soc {
+    gap: 56px;
+  }
 }

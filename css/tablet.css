@@ -99,6 +99,7 @@
     padding: 112px 0;
   }
   .hero-title {
+    width: 496px;
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 40px;
@@ -133,9 +134,7 @@
   .customers-item {
     width: calc((100% - 60px) / 3);
   }
-  .customers-link {
-    margin-bottom: 72px;
-  }
+
   .footer-text {
     width: 264px;
     text-align: left;
@@ -144,6 +143,7 @@
     display: flex;
   }
   .footer-subscribe {
+    margin-top: 0;
     padding-top: 72px;
   }
   .footer {
@@ -153,11 +153,11 @@
     display: block;
     margin-bottom: 16px;
   }
-  .footer-content {
-    margin-right: 120px;
-  }
+
   .footer-social {
+    margin-top: 0;
     margin-bottom: 16px;
+    margin-left: 24px;
   }
   .footer-tap {
     display: flex;
@@ -178,5 +178,19 @@
   .footer-submit-button {
     margin-left: 24px;
     margin-right: auto;
+    margin-top: 0;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 408px;
+    height: 584px;
+    background-color: var(--modal-color);
+    border-radius: 5px;
+    padding: 24px;
+    padding-top: 72px;
   }
 }
