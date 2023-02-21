@@ -28,13 +28,15 @@
     padding-top: 112px;
   }
   .customers-item {
-    width: calc((100%-30px) / 2);
+    width: calc((100% - 30px) / 2);
     gap: 30px;
   }
-  .team-list {
-    gap: 32px;
-  }
+
   .team-soc {
     gap: 16px;
+  }
+  .social {
+    text-align: center;
+    justify-content: center;
   }
 }
