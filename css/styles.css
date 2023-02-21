@@ -35,6 +35,7 @@ address {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 button {
@@ -109,7 +110,22 @@ body {
 .address {
   display: none;
 }
+.page-header-container {
+  display: flex;
 
+  align-items: center;
+}
+.page-header-tap {
+  display: flex;
+  align-items: center;
+  /* outline: 1px solid red; */
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+.logo-mob {
+  margin: 24px 0;
+}
 .mobile-menu-open {
   display: block;
   margin-left: auto;
@@ -154,7 +170,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: rgba(67, 68, 85, 1);
 }
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
@@ -174,7 +190,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: rgba(67, 68, 85, 1);
 }
 .mobile-menu-soc {
   display: flex;
@@ -195,19 +211,21 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--secondary-text-color);
+  background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-link:hover,
+.mobile-menu-link:focus {
+  color: #404bbf;
 }
 .mobile-menu-soc-link:hover,
 .mobile-menu-soc-link:focus {
   background-color: var(--accent-color);
 }
+
 /*===============Logo===========*/
 .logo {
   margin-right: 76px;
-}
-.logo-mob {
-  margin: 24px 0 24px 0;
 }
 .logo-text1 {
   color: #4d5ae5;
@@ -388,12 +406,15 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  column-gap: 72px;
+  row-gap: 24px;
 }
 
 .team-text {
   margin-bottom: 8px;
 }
 .team-item {
+  width: 100%;
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -562,8 +583,7 @@ body {
   margin-top: 72px;
 }
 .social {
-  display: flex;
-  /* justify-content: center; */
+  text-align: center;
   color: var(--primary-white-color);
   line-height: 1.5;
   padding-top: 72px;

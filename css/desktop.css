@@ -49,11 +49,9 @@
     fill: var(--licht-slate-color);
   }
   .advance-item {
-    width: calc((100% - 100px) / 4);
+    width: calc((100% - 72px) / 4);
   }
-  .advance-item:not(:nth-child(4n)) {
-    margin-right: 24px;
-  }
+
   .contacts {
     display: flex;
     align-items: center;
@@ -66,6 +64,7 @@
   .contacts-email {
     margin-right: 40px;
   }
+
   .advance-title {
     color: var(--primary-text-color);
     font-weight: 500;
