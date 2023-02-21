@@ -80,6 +80,8 @@
   }
   .contacts-email,
   .contacts-tel {
+    display: block;
+    margin-bottom: 4px;
     color: var(--primary-text-color);
     line-height: 1.5;
     font-style: normal;
