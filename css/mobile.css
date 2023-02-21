@@ -25,7 +25,6 @@
   }
   .hero-title {
     font-size: 36px;
-    padding-top: 112px;
   }
   .customers-item {
     width: calc((100% - 30px) / 2);

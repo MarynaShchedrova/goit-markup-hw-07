@@ -22,6 +22,7 @@
     display: none;
   }
   .hero {
+    padding-bottom: 108px;
     background-image: var(--bg-gradient),
       url('../images/fonts/hero-image-table.jpg');
   }
@@ -95,7 +96,7 @@
     color: var(--ocean-color);
   }
   .hero {
-    padding: 69px 0;
+    padding: 112px 0;
   }
   .hero-title {
     font-size: 56px;
@@ -113,11 +114,11 @@
   .advance-title {
     text-align: left;
   }
+
   .team-list {
     justify-content: center;
-  }
-  .team-list {
-    gap: 32px;
+    column-gap: 24px;
+    row-gap: 64px;
   }
   .team-soc {
     gap: 16px;
@@ -141,6 +142,9 @@
   }
   .footer-section {
     display: flex;
+  }
+  .footer-subscribe {
+    padding-top: 72px;
   }
   .footer {
     padding: 100px 0;

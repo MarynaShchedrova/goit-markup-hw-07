@@ -10,7 +10,9 @@
     padding-bottom: 120px;
   }
   .hero {
-    height: 600px;
+    padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: var(--bg-gradient),
       url('../images/fonts/hero-image-desktop.jpg');
   }
@@ -33,6 +35,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .services {
     display: block;
     padding-bottom: 120px;
@@ -91,10 +94,10 @@
   .team-list {
     justify-content: space-between;
   }
-  .customers {
+  /* .customers {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
+  } */
   .customers-item {
     width: calc((100% - 150px) / 6);
   }
@@ -104,6 +107,9 @@
   }
   .footer {
     padding: 100px 0;
+  }
+  .footer-subscribe {
+    padding-top: 0;
   }
   .container-footer-tap {
     display: flex;

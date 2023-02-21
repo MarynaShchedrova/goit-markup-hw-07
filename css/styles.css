@@ -170,7 +170,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: rgba(67, 68, 85, 1);
+  color: #2e2f42;
 }
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
@@ -196,7 +196,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 48px;
-  gap: 16px;
+  gap: 56px;
 }
 .mobile-menu-content {
   margin-bottom: 40px;
@@ -245,6 +245,8 @@ body {
 /*===========Hero=======*/
 .hero {
   width: 100%;
+  padding-bottom: 112px;
+  padding-top: 112px;
   background-repeat: no-repeat;
   background-image: var(--bg-gradient),
     url('../images/fonts/hero-image-mobile.jpg');
@@ -283,7 +285,6 @@ body {
   font-size: 28px;
   line-height: 1.11;
   text-align: center;
-  padding-top: 112px;
   margin: 0 auto 72px;
 }
 
@@ -372,7 +373,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 72px;
   gap: 24px;
 }
 
@@ -386,6 +386,7 @@ body {
   margin-top: 8px;
 }
 .advance-text {
+  font-size: 16px;
   line-height: 1.5;
   color: #434455;
 }
@@ -395,9 +396,7 @@ body {
 .services {
   display: none;
 }
-.advance-item {
-  padding-bottom: 72px;
-}
+
 /* =====Tem======= */
 .team {
   background-color: var(--cloud-color);
@@ -406,8 +405,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 72px;
-  row-gap: 24px;
 }
 
 .team-text {
@@ -580,13 +577,11 @@ body {
 }
 .footer-content {
   justify-content: center;
-  margin-top: 72px;
 }
 .social {
   text-align: center;
   color: var(--primary-white-color);
   line-height: 1.5;
-  padding-top: 72px;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -625,7 +620,6 @@ body {
 }
 .footer-subscribe {
   justify-content: center;
-  margin-top: 72px;
 }
 .footer-input::placeholder {
   font-weight: 400;
